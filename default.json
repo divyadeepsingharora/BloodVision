@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "image_size": 224,
+  "batch_size": 32,
+  "epochs": 10,
+  "learning_rate": 0.001,
+  "num_workers": 2,
+  "class_to_index": {
+    "hem": 0,
+    "all": 1
+  },
+  "dataset_root_candidates": [
+    "/kaggle/input/datasets/glendyhernandez/cnmc2019-trainprelim/new_dataset/training",
+    "/kaggle/input"
+  ]
+}
